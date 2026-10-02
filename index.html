@@ -1,44 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>My First Website - Hamzat</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hamzat - Web Developer</title>
 <style>
-body {
-  font-family: sans-serif;
-  padding: 20px;
-  line-height: 1.6;
-  max-width: 700px;
-  margin: auto;
-  background: #f9f9f9;
-}
-h1 { color: #0070f3; }
-.card {
-  background: white;
-  padding: 15px;
-  border-radius: 10px;
-  margin-top: 20px;
-}
+  body {
+    margin:0;
+    font-family: sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .card {
+    background: white;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  }
+  .avatar {
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  h1 { margin: 10px 0 5px; color: #111; }
+  .tag { color: #667eea; font-weight: bold; margin-bottom: 15px; }
+  p { color: #555; line-height: 1.6; font-size: 15px; }
+  .btns { margin-top: 25px; display: flex; flex-direction: column; gap: 12px; }
+  .btn {
+    padding: 14px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+  .btn-whatsapp { background: #25D366; }
+  .btn-linkedin { background: #0077b5; }
+  .btn-github { background: #111; }
+  .footer { margin-top: 20px; font-size: 12px; color: #999; }
 </style>
 </head>
 <body>
-
-<h1>Hello, I'm Hamzat 👋</h1>
-<p>Welcome to my first website. I'm learning how to build websites and make money online from Lagos.</p>
-
-<div class="card">
-<h2>What I will share here</h2>
-<ul>
-<li>Tech tips & cheap gadgets</li>
-<li>How students make money online</li>
-<li>My coding journey</li>
-</ul>
-</div>
-
-<div class="card">
-<h2>Contact Me</h2>
-<p>WhatsApp: Your number here</p>
-</div>
-
+  <div class="card">
+    <div class="avatar">H</div>
+    <h1>Kadiri Hamzat</h1>
+    <div class="tag">Web Developer from Nigeria 🇳🇬</div>
+    <p>
+      I build modern websites from my phone. Passionate about tech, learning, and creating solutions that work for Africa.
+    </p>
+    <div class="btns">
+      <a class="btn btn-whatsapp" href="https://wa.me/2340000000000">Chat on WhatsApp</a>
+      <a class="btn btn-linkedin" href="https://linkedin.com">View LinkedIn</a>
+      <a class="btn btn-github" href="https://github.com/kadirihamzat14-oss">View GitHub</a>
+    </div>
+    <div class="footer">Built with ❤️ on GitHub Pages • 2026</div>
+  </div>
 </body>
 </html>
