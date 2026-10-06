@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hamzat | Web Designer Lagos</title>
+<style>
+body{margin:0;font-family:sans-serif;background:#0a0a0a;color:white}
+.hero{padding:80px 20px;text-align:center;background:linear-gradient(#111,#000)}
+.btn{display:inline-block;background:#d4af37;color:black;padding:15px 35px;border-radius:30px;text-decoration:none;font-weight:bold;margin:10px}
+.card{background:#151515;border:1px solid #222;padding:20px;border-radius:15px;margin:10px}
+</style>
+</head>
+<body>
+<div class="hero">
+<h1 style="color:#d4af37;font-size:42px">I Build Websites That Bring Customers</h1>
+<p>For Barbershops, Salons & Small Business in Lagos</p>
+<br>
+<a class="btn" href="https://wa.me/2348035105501?text=Hello%20Hamzat%2C%20I%20need%20a%20website%20for%20my%20business">💬 Chat On WhatsApp</a>
+<a class="btn" style="background:white" href="tel:08035105501">📞 Call Me</a>
+</div>
+
+<div style="padding:30px;max-width:900px;margin:auto">
+<h2 style="color:#d4af37">My Recent Work</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:15px">
+<div class="card">
+<h3>Sharp Cut Barber Demo</h3>
+<p style="color:#999">Booking + WhatsApp + Gallery</p>
+<a style="color:#d4af37" href="https://kadirihamzat14-oss.github.io/lagos-barber-shop-/" target="_blank">View Live →</a>
+</div>
+<div class="card">
+<h3>Your Business Next</h3>
+<p style="color:#999">Ready in 48hrs for ₦15k</p>
+<a style="color:#d4af37" href="https://wa.me/2348035105501">Start Now →</a>
+</div>
+</div>
+
+<h2 style="color:#d4af37;margin-top:40px">What You Get For ₦15k</h2>
+<div class="card">✅ Mobile-ready website • ✅ WhatsApp Booking Button • ✅ Google Map Location • ✅ 1 Year Free Hosting (GitHub) • ✅ Your Photos & Prices</div>
+
+<div style="text-align:center;margin:50px 0">
+<h2>Ready To Start?</h2>
+<p style="color:#999">Message me now, I reply in 10 mins</p>
+<a class="btn" href="https://wa.me/2348035105501?text=Hello%20Hamzat%2C%20I%20need%20a%20website%20for%20my%20business">💬 Message Hamzat on WhatsApp</a>
+<p style="color:#666;margin-top:20px">Lagos, Nigeria • 0803 510 5501</p>
+</div>
+</div>
+</body>
+</html>
